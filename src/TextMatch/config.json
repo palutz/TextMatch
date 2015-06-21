@@ -1,0 +1,10 @@
+{
+    "AppSettings": {
+        "SiteTitle": "TextMatch"
+    },
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-TextMatch-a722c735-5189-4434-8511-23faa93894bb;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.sass-cache
+.tmp
+.suo
+.user
+node_modules
+packages
+eviivoTest/bower_components
+eviivoTest/bin
+eviivoTest/obj
