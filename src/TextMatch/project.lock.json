@@ -17,6 +17,7 @@
       "Microsoft.AspNet.Identity.EntityFramework >= 3.0.0-beta4",
       "Microsoft.AspNet.Server.IIS >= 1.0.0-beta4",
       "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta4",
+      "Microsoft.AspNet.Session >= 1.0.0-beta4",
       "Microsoft.AspNet.StaticFiles >= 1.0.0-beta4",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-beta4",
       "Microsoft.Framework.ConfigurationModel.Json >= 1.0.0-beta4",
@@ -2796,6 +2797,57 @@
         "lib/dnxcore50/Microsoft.AspNet.Server.WebListener.xml"
       ]
     },
+    "Microsoft.AspNet.Session/1.0.0-beta4": {
+      "serviceable": true,
+      "sha": "KsSTBtwx8UenjzNyDuzbAEd9fswkgQiWbuMJ/SyVjf1m4wR1vQAG56Syp1sjo6zak0vp8DXxLkDNa1XrBii0og==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Http.Extensions": "1.0.0-beta4",
+            "Microsoft.AspNet.Http.Interfaces": "1.0.0-beta4",
+            "Microsoft.Framework.Caching.Distributed": "1.0.0-beta4",
+            "Microsoft.Framework.Logging.Interfaces": "1.0.0-beta4"
+          },
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
+          "runtimeAssemblies": [
+            "lib/dnx451/Microsoft.AspNet.Session.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnx451/Microsoft.AspNet.Session.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "Microsoft.AspNet.Http.Extensions": "1.0.0-beta4",
+            "Microsoft.AspNet.Http.Interfaces": "1.0.0-beta4",
+            "Microsoft.Framework.Caching.Distributed": "1.0.0-beta4",
+            "Microsoft.Framework.Logging.Interfaces": "1.0.0-beta4",
+            "System.Security.Cryptography.RandomNumberGenerator": "4.0.0-beta-22816"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/dnxcore50/Microsoft.AspNet.Session.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/Microsoft.AspNet.Session.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.Session.1.0.0-beta4.nupkg",
+        "Microsoft.AspNet.Session.1.0.0-beta4.nupkg.sha512",
+        "Microsoft.AspNet.Session.nuspec",
+        "lib/dnx451/Microsoft.AspNet.Session.dll",
+        "lib/dnx451/Microsoft.AspNet.Session.xml",
+        "lib/dnxcore50/Microsoft.AspNet.Session.dll",
+        "lib/dnxcore50/Microsoft.AspNet.Session.xml"
+      ]
+    },
     "Microsoft.AspNet.StaticFiles/1.0.0-beta4": {
       "serviceable": true,
       "sha": "jWxWQB8uTGOyVddlxP0kloTYtaQqnzUg+kMgUcNir4l58FbSTymbVTczOqjuy3Kdt3xy9nh/+kKGWpkCc3xf8g==",
@@ -3109,6 +3161,50 @@
         "lib/contract/Microsoft.CSharp.dll",
         "lib/net45/_._",
         "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/Microsoft.CSharp.dll"
+      ]
+    },
+    "Microsoft.Framework.Caching.Distributed/1.0.0-beta4": {
+      "serviceable": true,
+      "sha": "d+i9yc2ZCcyRo6uf/Y2PvPSuHmsOfVFNnXduKL80K7oXevz8bulO/IhivwXIX8Xm+FzwxIBllsyQ/ETV3qVXkg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.Framework.Caching.Memory": "1.0.0-beta4"
+          },
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
+          "runtimeAssemblies": [
+            "lib/dnx451/Microsoft.Framework.Caching.Distributed.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnx451/Microsoft.Framework.Caching.Distributed.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "Microsoft.Framework.Caching.Memory": "1.0.0-beta4"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/dnxcore50/Microsoft.Framework.Caching.Distributed.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/Microsoft.Framework.Caching.Distributed.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.Framework.Caching.Distributed.1.0.0-beta4.nupkg",
+        "Microsoft.Framework.Caching.Distributed.1.0.0-beta4.nupkg.sha512",
+        "Microsoft.Framework.Caching.Distributed.nuspec",
+        "lib/dnx451/Microsoft.Framework.Caching.Distributed.dll",
+        "lib/dnx451/Microsoft.Framework.Caching.Distributed.xml",
+        "lib/dnxcore50/Microsoft.Framework.Caching.Distributed.dll",
+        "lib/dnxcore50/Microsoft.Framework.Caching.Distributed.xml"
       ]
     },
     "Microsoft.Framework.Caching.Interfaces/1.0.0-beta4": {

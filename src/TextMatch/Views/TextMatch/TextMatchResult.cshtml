@@ -1,0 +1,19 @@
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Text Match Result";
+    var textmatchRes = TempData["textmatchRes"] as string;
+}
+<div class="jumbotron">
+  <div class="container">
+    <h2>Text match result:</h2>
+    <br>
+    @if(textmatchRes.Length > 0) {
+      <h4>Index of the matching string(s): </h4>
+      <h3>@textmatchRes </h3>
+    } else {
+      <h3>Sorry no match found.</h3>
+    }
+  </div>
+</div>
